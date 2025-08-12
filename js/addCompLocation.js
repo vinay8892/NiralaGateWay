@@ -13,7 +13,7 @@
 firebase.initializeApp(config);
 //create firebase database reference
 var dbRef = firebase.database();
-var compRef = dbRef.ref('compInfo_OneFng');
+var compRef = dbRef.ref('compInfo_NiralaGateWay');
 var LeadsLogRef = dbRef.ref('LeadsLog');
 
 //save contact
